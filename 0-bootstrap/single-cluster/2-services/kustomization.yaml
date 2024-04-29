@@ -1,4 +1,6 @@
 resources:
+- argocd/instances/sealed-secrets.yaml
+
 # IBM Software
 
 ## Cloud Pak for Integration
