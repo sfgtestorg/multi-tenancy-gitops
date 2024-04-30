@@ -34,7 +34,7 @@ spec:
             pullPolicy: IfNotPresent
           #storageClassName: ibmc-block-gold
           storageClassName: ocs-storagecluster-cephfs
-          
+           
           service:
             name: db2-lb
             type: ClusterIP

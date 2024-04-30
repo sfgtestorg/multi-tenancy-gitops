@@ -10,7 +10,7 @@ metadata:
     gitops.tier.source: git
   finalizers:
     - resources-finalizer.argocd.argoproj.io
-spec:
+spec: 
   ignoreDifferences:
   - group: apps
     kind: StatefulSet
