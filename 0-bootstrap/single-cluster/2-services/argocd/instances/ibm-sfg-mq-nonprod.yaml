@@ -16,7 +16,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: services
   source:
-    path: instances/ibm-sfg-mq
+    path: instances/ibm-sfg-mq   
     helm:
       values: |
         service-account:
